@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/owl-s.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/upnp.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/axis.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/axis-ant.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/commons-discovery.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/commons-httpclient-3.0-alpha1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/jaxrpc.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/log4j-1.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/saaj.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/axis/wsdl4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/antlr.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/concurrent.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/icu4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/jakarta-oro-2.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/jena.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/junit.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/log4j-1.2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/xercesImpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/jena/arq/arq.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/pellet/aterm-java-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/项目导入包/OWL-S文件组合所需包 owls api/lib/pellet/pellet.jar"/>
+	<classpathentry kind="lib" path="E:/项目导入包/CreateSequence.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

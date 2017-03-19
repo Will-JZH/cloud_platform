@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table class="table table-bordered">
+					<thead>
+						<tr>
+			                <th>选择</th>
+			                <th>服务名称</th>
+			                <th>单价</th>
+			                <th>时间</th>
+			            </tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="message in messages">
+							<td class="inbox-table-icon">
+			                    <div class="checkbox">
+			                        <label>
+			                            <input type="checkbox" ng-model="message.selected" class="checkbox style-2">
+			                            <span></span> 
+			                        </label>
+			                    </div>
+			                </td>
+			                <td class="inbox-data col-md-2">
+			                    <div>
+			                        <span title="{{message['id']}}">{{message['serviceName']}}</span>
+			                    </div>
+			                </td>
+			                <td class="inbox-data">
+			                    <div>
+			                        {{message['price']}}
+			                    </div>
+			                </td>
+			                <td class="inbox-data">
+			                    <div>
+			                        {{message['time']}}
+			                    </div>
+			                </td>
+			                
+			                <td class="inbox-data">
+			                    <div>
+			                        {{message['doctor']}}
+			                    </div>
+			                </td>
+						</tr>
+					</tbody>
+				</table> 
+</body>
+</html>
